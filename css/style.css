@@ -1,0 +1,575 @@
+/* BASE */
+
+section
+{
+    padding: 0 10px 0 10px;
+}
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img
+{
+    width: 100%;
+}
+
+a
+{
+    font-family: 'MyriadProRegular';
+    font-size: 21px;
+
+    text-decoration: none;
+
+    color: inherit;
+}
+
+/* HOME */
+
+#home
+{
+    position: relative;
+
+    overflow: hidden;
+
+    background: url('../img/bg-top.png') no-repeat 50%;
+    background-size: cover;
+}
+
+.menu-btn
+{
+    position: absolute;
+    top: 6%;
+    right: 5%;
+
+    display: none;
+
+    width: 30px;
+    height: 30px;
+
+    cursor: pointer;
+
+    background: url(../pic/icon/menu.png) no-repeat;
+    background-size: cover;
+}
+
+.right
+{
+    line-height: 41px;
+
+    position: absolute;
+    top: 6%;
+    right: 5%;
+}
+
+.right a
+{
+    margin: 0 20px;
+
+    color: #fff;
+}
+
+.right a:last-child
+{
+    margin-right: 0;
+    padding: 10px 28px;
+
+    border: 3px solid #fff;
+}
+
+.right a:hover
+{
+    cursor: pointer;
+
+    color: #f0f0f0;
+}
+
+.right a:hover:last-child
+{
+    background-color: rgba(255,255,255,.3);
+}
+
+.left
+{
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+
+.left p
+{
+    font-family: 'MyriadProRegular';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 38px;
+
+    padding-left: 12px;
+
+    color: #fff;
+}
+
+.logo-icon
+{
+    float: left;
+}
+
+.logo-name
+{
+    float: left;
+}
+
+h1
+{
+    font-family: 'MyriadProRegular';
+    font-size: 48px;
+
+    padding: 225px 0 5% 0;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.watermelon-full
+{
+    width: 80%;
+    max-width: 252px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+/* ABOUT */
+
+#about
+{
+    background: #fff;
+}
+
+h2
+{
+    font-family: 'MyriadProRegular';
+    font-size: 47px;
+
+    padding: 10% 0 3% 0;
+
+    text-align: center;
+}
+
+#about h2
+{
+    color: #4e4e4e;
+}
+
+p
+{
+    font-family: 'MyriadProRegular';
+    font-size: 25px;
+    line-height: 170%;
+
+    padding-bottom: 5%;
+
+    text-align: center;
+}
+
+#about p
+{
+    color: #737070;
+}
+
+.watermelon-cut
+{
+    width: 50%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+/* FEATURES */
+
+#features
+{
+    background: #2b342b;
+}
+
+#features h2
+{
+    color: #fff;
+}
+
+#features > .container > p
+{
+    color: #fff;
+}
+
+.melon
+{
+    position: relative;
+
+    width: 100%;
+    max-width: 630px;
+    margin: 0 auto;
+    padding-bottom: 10%;
+}
+
+.melon p
+{
+    font-family: 'MyriadProRegular';
+    font-size: 22px;
+
+    position: absolute;
+
+    color: #fff;
+}
+
+/* BUY */
+
+#nutrition
+{
+    background-color: #e9ede9;
+}
+
+#nutrition h2
+{
+    color: #4e4e4e;
+}
+
+#nutrition > .container > p
+{
+    color: #737070;
+}
+
+.plans
+{
+    padding-bottom: 10%;
+
+    text-align: center;
+}
+
+.plan
+{
+    display: inline-block;
+
+    margin: 15px;
+    padding: 3% 7%;
+
+    -webkit-transition: box-shadow .2s;
+       -moz-transition: box-shadow .2s;
+        -ms-transition: box-shadow .2s;
+         -o-transition: box-shadow .2s;
+            transition: box-shadow .2s;
+
+    background-color: rgba(211, 207, 207, .5);
+}
+
+.plan:hover
+{
+    -webkit-box-shadow: inset 0 0 7px 3px rgba(92,92,92,.5);
+            box-shadow: inset 0 0 7px 3px rgba(92,92,92,.5);
+}
+
+h3
+{
+    font-family: 'MyriadProRegular';
+    font-size: 33px;
+
+    padding: 35px 0 55px 0;
+
+    color: #7d7b7b;
+}
+
+.package-type
+{
+    font-family: 'MyriadProRegular';
+
+    color: #afacac;
+}
+
+.plan > p
+{
+    font-family: 'MyriadProRegular';
+    font-size: 32px;
+
+    padding-bottom: 22px;
+
+    color: #4e4e4e;
+}
+
+.plans > .plan > .price
+{
+    padding-bottom: 43px;
+
+    color: #b38e48;
+}
+
+.button
+{
+    font-size: 16px;
+    line-height: 40px;
+
+    display: inline-block;
+
+    width: 113px;
+    height: 37px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #e9ede9;
+    border-radius: 13px;
+    background-color: #71ae5a;
+}
+
+.button:hover
+{
+    background-color: #88c671;
+}
+
+/* FOOTER */
+
+#footer
+{
+    background-color: #e9ede9;
+}
+
+.footer-list
+{
+    font-family: 'MyriadProRegular';
+    font-size: 18px;
+
+    padding-bottom: 10px;
+
+    color: #747373;
+}
+
+.footer-list a
+{
+    padding-right: 15px;
+}
+
+.bottom
+{
+    font-family: 'MyriadProRegular';
+    font-size: 18px;
+
+    padding-bottom: 50px;
+
+    text-align: left;
+
+    color: #958f8f;
+}
+
+.footer-list a:hover
+{
+    color: #595555;
+}
+
+/* ELEMENT */
+.to-top
+{
+    position: fixed;
+    right: 3vw;
+    bottom: 2vh;
+
+    width: 48px;
+    height: 47px;
+
+    content: '';
+    cursor: pointer;
+
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    background-color: #88c671;
+}
+
+.to-top:hover
+{
+    cursor: pointer;
+
+    background-color: #71ae5a;
+    box-shadow: 1px 1px 15px rgba(0,0,0,.3);
+}
+
+.to-top div
+{
+    position: relative;
+    top: 34%;
+
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+
+    content: '';
+
+    border-width: 0 10px 14px 10px;
+    border-style: solid;
+    border-color: transparent transparent #e9ede9 transparent;
+}
+
+/* ADAPTIVE */
+
+@media (max-width: 925px)
+{
+    .right
+    {
+        line-height: 35px;
+
+        position: absolute;
+        z-index: 100;
+        top: 35px;
+        right: -150px;
+
+        padding: 0;
+
+        -webkit-transition: right .3s ease;
+           -moz-transition: right .3s ease;
+            -ms-transition: right .3s ease;
+             -o-transition: right .3s ease;
+                transition: right .3s ease;
+    }
+
+    .right a
+    {
+        text-align: right;
+        display: block;
+
+        margin: 0 10px;
+
+        color: #fff;
+    }
+
+    .right a:last-child
+    {
+        padding: 0 8px;
+
+        border: 2px solid #fff;
+    }
+
+    .menu-btn
+    {
+        display: inline-block;
+
+        -webkit-transition: right .2s ease;
+           -moz-transition: right .2s ease;
+            -ms-transition: right .2s ease;
+             -o-transition: right .2s ease;
+                transition: right .2s ease;
+    }
+
+    .plan {
+        padding: 5% 10%;
+    }
+
+    #menu-checkbox:checked ~ .right
+{
+    right: 45px;
+}
+}
+
+@media (max-width: 685px)
+{
+    .right
+    {
+        line-height: 35px;
+
+        position: absolute;
+        z-index: 100;
+        top: 35px;
+        right: -150px;
+
+        padding: 0;
+
+        -webkit-transition: right .3s ease-in;
+           -moz-transition: right .3s ease-in;
+            -ms-transition: right .3s ease-in;
+             -o-transition: right .3s ease-in;
+                transition: right .3s ease-in;
+    }
+
+    .right a
+    {
+        text-align: right;
+        display: block;
+
+        margin: 0 10px;
+
+        color: #fff;
+    }
+
+    .right a:last-child
+    {
+        padding: 0 8px;
+
+        border: 2px solid #fff;
+    }
+
+    .menu-btn
+    {
+        display: inline-block;
+
+        -webkit-transition: right .2s ease-in;
+           -moz-transition: right .2s ease-in;
+            -ms-transition: right .2s ease-in;
+             -o-transition: right .2s ease-in;
+                transition: right .2s ease-in;
+    }
+
+    p,
+    .footer-list a,
+    #footer p,
+    .bottom
+    {
+        font-size: calc( (100vw - 640px)/(1200 - 640) * (34 - 22) + 22px);
+    }
+
+    h2
+    {
+        font-size: calc( (100vw - 640px)/(1200 - 640) * (48 - 38) + 38px);
+    }
+
+    h3
+    {
+        font-size: calc( (100vw - 640px)/(1200 - 640) * (33 - 28) + 28px);
+    }
+
+    .plan {
+        padding: 5% 15%;
+    }
+
+    .plan > p
+    {
+        font-size: calc( (100vw - 640px)/(1200 - 640) * (32 - 25) + 25px);
+    }
+
+    .to-top
+    {
+        display: none;
+    }
+
+    h1
+    {
+        font-size: calc( (100vw - 640px)/(1200 - 640) * (48 - 37) + 37px);
+    }
+
+    #menu-checkbox:checked ~ .right
+{
+    right: 35px;
+}
+}
+
+
+/* SIDE MENU */
+
+#menu-checkbox
+{
+    display: none;
+}
+
+#menu-checkbox:checked ~ .menu-btn
+{
+    right: 1%;
+
+    background: url(../pic/icon/cancel.png) no-repeat;
+    background-size: 80%;
+}
